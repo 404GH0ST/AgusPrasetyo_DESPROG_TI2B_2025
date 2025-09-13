@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-image: url("/img/catppuccin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2A202C;
+    color: #A0AEC0;
+    line-height: 1.65;
+}
+
+.container-satu {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #2D3748;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 30px;
+    border-radius: 8px;
+    border: 1px solid #4A5568;
+}
+
+h2,
+h3 {
+    color: #E2E8F0;
+    margin-top: 0;
+}
+
+a {
+    color: #63B3ED;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #90CDF4;
+}
+
+.kolom-utama {
+    order: 2;
+    flex: 2;
+}
+
+.sidebar-satu,
+.sidebar-dua {
+    flex: 1;
+}
+
+.sidebar-satu ul {
+    list-style-type: none;
+}
+
+.sidebar-satu li {
+    margin-bottom: 10px;
+}
+
+.sidebar-satu {
+    order: 1;
+}
+
+.sidebar-dua {
+    order: 3;
+}
