@@ -154,9 +154,9 @@ function openCommentModal(postIndex) {
   $(".error-message").text("")
   $(".form-input, .form-textarea").removeClass("error")
 
-  $("#commentModal").addClass("show")
+  $("#commentModal").fadeIn()
 }
 
 function closeCommentModal() {
-  $("#commentModal").removeClass("show")
+  $("#commentModal").fadeOut()
 }
