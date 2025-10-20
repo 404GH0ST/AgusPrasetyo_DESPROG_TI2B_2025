@@ -37,7 +37,6 @@ p {
   color: #64748b;
 }
 
-/* ===== LAYOUT: CONTAINER ===== */
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -196,7 +195,6 @@ p {
   background-color: #dc2626;
 }
 
-/* ===== POSTS LIST ===== */
 .posts-list {
   display: flex;
   flex-direction: column;
