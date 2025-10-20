@@ -1,5 +1,3 @@
-// const $ = window.jQuery
-
 $(document).ready(() => {
   initializeEventListeners()
   initializeCharCounter()
